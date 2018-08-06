@@ -4,7 +4,6 @@
  var counter =0;
 
 function takeANumber(line){
- 
   counter++
   line.push(counter)
   return `Welcome! You're ticket number #${counter}`
